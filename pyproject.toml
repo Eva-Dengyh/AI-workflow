@@ -11,10 +11,11 @@ dependencies = [
     "tenacity>=9.0.0",
     "pydantic>=2.0.0",
     "pydantic-settings>=2.0.0",
+    "openai>=1.0.0",
 ]
 
 [project.scripts]
-task-agent = "task_agent.cli:app"
+ai-workflow = "task_agent.cli:main"
 
 [dependency-groups]
 dev = [
